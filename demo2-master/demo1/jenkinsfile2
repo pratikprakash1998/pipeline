@@ -10,7 +10,8 @@ pipeline{
                   steps{
                       script{
 		    	                sh '''
-          cd demo1
+          cd demo2-master
+	  cd demo1
           mvn clean install
     '''
                       	  }
